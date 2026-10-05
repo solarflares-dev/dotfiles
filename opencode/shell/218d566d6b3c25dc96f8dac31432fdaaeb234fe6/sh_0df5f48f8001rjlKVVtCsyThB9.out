@@ -1,0 +1,8 @@
+=== running? ===
+11733 waybar
+
+=== errors/warnings ===
+[2026-09-26 23:19:20.001] [warning] Requested height: 15 is less than the minimum height: 21 required by the modules
+
+=== layer surface ===
+  1920x21 at (0,0) level=2

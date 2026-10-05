@@ -1,0 +1,5 @@
+errs=1  <- {"format":"{:%H:%M}","tooltip-format":"<big>{:%H:%M}</big>\n<big>{:%A, %d %B %Y}</big>"}
+errs=1  <- {"format":"{:%H:%M}","tooltip-format":"<big>{:%H:%M}</big>\n<big>{:%A, %d %B}</big>"}
+errs=1  <- {"format":"{:%H:%M}","tooltip-format":"<big>{:%H:%M}</big>\n<big>{:%A, %d %b %Y}</big>"}
+errs=0  <- {"format":"{:%H:%M}","tooltip-format":"{:%A, %d %B %Y}"}
+errs=0  <- {"format":"{:%H:%M}","tooltip-format":"<big>{:%A, %d %B %Y}</big>"}

@@ -1,0 +1,4 @@
+  format=">"  errors=1
+  format="&gt;"  errors=1
+  format="❯"  errors=1
+  format="\u276f"  errors=1

@@ -1,0 +1,11 @@
+=== running? ===
+11291 waybar
+
+=== errors/warnings ===
+[2026-09-26 23:15:00.653] [error] clock: format error: invalid arg-id in format string
+
+=== log ===
+[2026-09-26 23:15:00.636] [info] Using configuration file /home/solar/.config/waybar/config.jsonc
+[2026-09-26 23:15:00.638] [info] Using CSS file /home/solar/.config/waybar/style.css
+[2026-09-26 23:15:00.653] [error] clock: format error: invalid arg-id in format string
+[2026-09-26 23:15:00.654] [info] Bar configured (width: 1920, height: 28) for output: HDMI-A-2

@@ -1,0 +1,7 @@
+CLOCK ONLY, height 15, font-size kept at 15px:
+  baseline => bar=21   clamp=1
+  min-height:0 => bar=21   clamp=1
+  min-height:1px => bar=21   clamp=1
+  min-height:0 + padding:0 => bar=21   clamp=1
+  min-height:0 !important => bar=NONE clamp=0
+  label{min-height:0} => bar=21   clamp=1

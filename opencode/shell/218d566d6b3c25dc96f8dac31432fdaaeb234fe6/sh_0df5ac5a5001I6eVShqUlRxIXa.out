@@ -1,0 +1,15 @@
+FA signal block F1EB..F1EF and neighbors:
+  U+F1EB -> YES
+  U+F1EC -> YES
+  U+F1ED -> YES
+  U+F1EE -> YES
+  U+F1EF -> no
+  U+F1F0 -> YES
+  U+F1F1 -> YES
+  U+F1F2 -> YES
+  U+F1F3 -> YES
+nf-oct signal F644..F647:
+  U+F644 -> YES
+  U+F645 -> YES
+  U+F646 -> YES
+  U+F647 -> YES

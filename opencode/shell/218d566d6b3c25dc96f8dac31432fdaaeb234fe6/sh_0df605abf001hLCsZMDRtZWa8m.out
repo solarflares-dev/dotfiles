@@ -1,0 +1,5 @@
+  baseline, nothing forced  =>  width: 1920, height: 21   (clamped=1)
+  + min-height:0 only  =>  width: 1920, height: 21   (clamped=1)
+  + min-height:0, no vpad  =>  width: 1920, height: 21   (clamped=1)
+  + forced height:15px  =>  <no bar>   (clamped=0)
+  + min/max/height 15px  =>  <no bar>   (clamped=0)

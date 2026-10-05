@@ -1,0 +1,6 @@
+clock only        : bar=21   clamped=1
+image only        : bar=15   clamped=0
+network+FA icons  : bar=18   clamped=1
+network ipaddr    : bar=18   clamped=1
+ALL THREE         : bar=21   clamped=1
+REAL config       : bar=21   clamped=1

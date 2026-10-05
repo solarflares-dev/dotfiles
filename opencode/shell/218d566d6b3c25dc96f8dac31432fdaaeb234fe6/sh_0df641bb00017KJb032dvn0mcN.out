@@ -1,0 +1,16 @@
+Clock font-size sweep at height:15  (what actually fits):
+  font 15px => bar=21   clamp=1
+  font 14px => bar=20   clamp=1
+  font 13px => bar=18   clamp=1
+  font 12px => bar=17   clamp=1
+  font 11px => bar=16   clamp=1
+  font 10px => bar=15   clamp=0
+  font 9px => bar=15   clamp=0
+
+Same but with the LOGO (18px image) also present:
+  font 15px + logo 18px => bar=21   clamp=1
+  font 14px + logo 18px => bar=20   clamp=1
+  font 13px + logo 18px => bar=18   clamp=1
+  font 12px + logo 18px => bar=17   clamp=1
+  font 11px + logo 18px => bar=16   clamp=1
+  font 10px + logo 18px => bar=15   clamp=0

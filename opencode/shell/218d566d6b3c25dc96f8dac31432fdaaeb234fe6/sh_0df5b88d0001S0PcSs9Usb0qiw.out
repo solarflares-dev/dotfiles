@@ -1,0 +1,5 @@
+[2026-09-26 23:15:14.199] [debug] network: new default route via 192.168.100.1 on if2 metric 100
+[2026-09-26 23:15:14.199] [debug] network: enp3s0, new addr 192.168.100.136/24
+[2026-09-26 23:15:14.199] [debug] network: enp3s0, new addr 192.168.100.136/24
+[2026-09-26 23:15:14.209] [info] Bar configured (width: 1920, height: 28) for output: HDMI-A-2
+--- (a single non-fatal tooltip error is acceptable) ---

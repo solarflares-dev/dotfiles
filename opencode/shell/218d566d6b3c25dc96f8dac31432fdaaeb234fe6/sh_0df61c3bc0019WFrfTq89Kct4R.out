@@ -1,0 +1,8 @@
+real css                     => height: 15
+- min-height:0 removed     => height: 15
+- font-weight removed      => height: 15
+- all padding removed      => height: 15
+- #arch rule removed      => 
+- #clock rule removed     => 
+- #network rule removed   => 
+- font-family removed     => height: 15

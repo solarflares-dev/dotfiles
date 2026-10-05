@@ -1,0 +1,7 @@
+--- isolate: which module forces 21px? (height:15 requested) ---
+  clock only => height: 15 
+  image only => height: 15 
+  network only => height: 15 
+--- valid GTK props to force it down ---
+  all + max-height:15 => FAILED 'max-height' is not a valid
+  all + min:0 max:15 => FAILED 'max-height' is not a valid

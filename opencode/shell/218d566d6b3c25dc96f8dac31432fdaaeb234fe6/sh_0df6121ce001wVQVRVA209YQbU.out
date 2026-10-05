@@ -1,0 +1,6 @@
+  A: all 3, default font sizes => height: 15 
+  B: all 3, clock=15px (current real) => height: 15 
+  C: clock ONLY, font=15px => height: 15 
+  D: clock ONLY 15px + min-height:0 => height: 15 
+  E: all 3, clock15 + min-height:0 => height: 15 
+  F: all 3, clock15 + padding 0 => height: 15 
