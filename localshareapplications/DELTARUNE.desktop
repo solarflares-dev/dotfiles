@@ -1,0 +1,9 @@
+[Desktop Entry]
+X-SLSteamMoon-Patched=true
+Name=DELTARUNE
+Comment=Play this game on Steam
+Exec=/home/solar/.local/share/SLSsteam/path/steam steam://rungameid/1671210
+Icon=steam_icon_1671210
+Terminal=false
+Type=Application
+Categories=Game;

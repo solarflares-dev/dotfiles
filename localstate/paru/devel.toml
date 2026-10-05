@@ -1,0 +1,19 @@
+[[cmatrix-git]]
+url = "https://github.com/abishekvashok/cmatrix"
+commit = "5c082c64a1296859a11bee60c8c086655953a416"
+
+[[cmd-polkit-git]]
+url = "https://github.com/OmarCastro/cmd-polkit.git"
+commit = "b85a4cab9f42dbe92e21f648ccfb981f7a879aeb"
+
+[[phylax-git]]
+url = "https://github.com/jakeb-grant/phylax.git"
+commit = "4946e2465edad3c441af81cfc543c04807902ef4"
+
+[[rofi-polkit-agent-git]]
+url = "https://github.com/czaplicki/rofi-polkit-agent.git"
+commit = "d0c5e524611c7ec1d36b24e6a6fb59abc5bc70d3"
+
+[[rtl8188gu-dkms-git]]
+url = "https://github.com/lwfinger/rtl8188gu.git"
+commit = "9dec8292ae13c3a0dbf53eb07da6585427c8db7a"

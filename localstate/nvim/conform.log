@@ -1,0 +1,14 @@
+2026-09-27 11:38:08[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: 
+ - unexpected token `(` (287:49 to 287:50), expected `)` to close function call
+ - unexpected token `(` (287:8 to 287:9), expected `)` to close function call
+ - unexpected token `=` (287:61 to 287:62), unexpected token, this needs to be a statement
+ - unexpected token `(` (288:50 to 288:51), expected `)` to close function call
+ - unexpected token `(` (288:8 to 288:9), expected `)` to close function call
+ - unexpected token `=` (288:62 to 288:63), unexpected token, this needs to be a statement
+ - unexpected token `(` (289:47 to 289:48), expected `)` to close function call
+ - unexpected token `(` (289:8 to 289:9), expected `)` to close function call
+ - unexpected token `=` (289:59 to 289:60), unexpected token, this needs to be a statement
+ - unexpected token `(` (290:49 to 290:50), expected `)` to close function call
+ - unexpected token `(` (290:8 to 290:9), expected `)` to close function call
+ - unexpected token `=` (290:61 to 290:62), unexpected token, this needs to be a statement
+

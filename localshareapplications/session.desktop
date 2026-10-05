@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Session
+Comment=Privacy-focused messenger
+Exec=/home/solar/.local/share/applications/session-desktop-linux-x86_64-1.18.1.AppImage
+Terminal=false
+Categories=Network;InstantMessaging;

@@ -1,0 +1,7 @@
+[MIME Cache]
+application/x-osu-beatmap-archive=osuwinello-file-extensions-handler.desktop;
+application/x-osu-replay=osuwinello-file-extensions-handler.desktop;
+application/x-osu-skin-archive=osuwinello-file-extensions-handler.desktop;
+x-scheme-handler/osu=osuwinello-url-handler.desktop;
+x-scheme-handler/steam=steam.desktop;
+x-scheme-handler/steamlink=steam.desktop;
