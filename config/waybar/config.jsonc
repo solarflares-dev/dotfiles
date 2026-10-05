@@ -1,0 +1,66 @@
+// ~/.config/waybar/config.jsonc
+// Layout: arch logo (left) | clock (center) | network (right)
+// Colors live in style.css
+
+{
+    "layer": "top",
+    "position": "top",
+    "height": 20,
+    "exclusive": false,
+
+    "modules-left": ["image#arch", "hyprland/workspaces"],
+    "modules-center": ["clock"],
+    "modules-right": ["idle_inhibitor", "network"],
+
+    "hyprland/workspaces": {
+        "format": "{name}",
+        "persistent-workspaces": {
+            "*": 5
+        }
+    },
+
+//    "custom/myimage": {
+//        "format": " ",
+//        "tooltip": false
+//    },
+
+//     Left: the Arch Linux logo
+    "image#arch": {
+        "path": "/home/solar/.config/waybar/assets/archwhite.png",
+        "size": 16,
+        "interval": 5
+    },
+
+    // Center: time
+    "clock": {
+        "format": "{:%H:%M}",
+        "tooltip-format": "<big>{:%A, %d %B %Y  %H:%M}</big>"
+    },
+
+    // Right: network
+    // Signal-strength bars (Font Awesome) chosen by connection quality.
+    // For wired links this clamps to the full-bars icon = "connected".
+    "network": {
+        "interval": 5,
+        "format-wifi": "{signalStrength}%  {icon}",
+        "format-ethernet": "{icon}  {ipaddr}",
+        "format-disconnected": "{icon}",
+        "format-icons": ["\uf1eb", "\uf1ec", "\uf1ed", "\uf1ee"],
+        "format-alt": "{ifname} · {ipaddr}",
+        "tooltip-format-ethernet": "{ifname}\n{ipaddr}",
+        "tooltip-format-wifi": "{essid}\n{signalStrength}% · {ipaddr}",
+        "tooltip-format-disconnected": "disconnected"
+    },
+    "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+        "activated": "",
+        "deactivated": ""
+    },
+    "tooltip": true,
+    "tooltip-format-activated": "Caffeine Mode: On (Screen won't sleep)",
+    "tooltip-format-deactivated": "Caffeine Mode: Off (Screen will sleep)"
+},
+}
+
+

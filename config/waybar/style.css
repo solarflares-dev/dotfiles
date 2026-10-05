@@ -1,0 +1,114 @@
+/* ~/.config/waybar/style.css
+   OLED friendly: true #000000 background, no shadows, no rounded corners,
+   text kept off pure white so the pixels stay cheap to switch off. */
+
+* {
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 12px;
+    font-weight: 500;
+    min-height: 0;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+window#waybar {
+    background-color: #000000;
+    color: #c3c7cb;
+}
+
+/* Left: arch logo
+   (trace shows the image module's classes: image, horizontal, arch, module) */
+#arch {
+    padding: 0 7px;
+}
+
+/* Center: time */
+#clock {
+    color: #e8eaed;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 7px;
+}
+
+/* Right: network */
+#network {
+    padding: 0 7px;
+    color: #c3c7cb;
+}
+
+#network.connected {
+    color: #1793d1; /* Arch blue */
+}
+
+#network.disconnected {
+    color: #4c5157; /* dimmed when there is no link */
+}
+
+/* Container for the workspaces */
+#workspaces {
+    background-color: #000000;
+    margin-left: 12px;        /* Separator space from your Arch logo */
+    margin-right: 0;
+    padding: 0;
+}
+
+/* Micro-sized Individual workspace buttons */
+#workspaces button {
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 11px;          
+    font-weight: normal;
+    padding: 1px 4px;         
+    min-height: 16px;         
+    min-width: 16px;          
+    margin: 0px 1px;          
+    border: 1px solid transparent; 
+    box-shadow: none;         /* Cleaned up syntax error */
+    text-shadow: none;        
+}
+
+/* Completely flattens the hover effect - no changes, no glow */
+#workspaces button:hover {
+    background: none;
+    background-color: #000000;
+    color: #ffffff;
+    box-shadow: none;
+    text-shadow: none;
+    border: 1px solid transparent; 
+}
+
+/* If you hover over the ACTIVE workspace, it cleanly preserves its white border */
+#workspaces button.active:hover {
+    background: none;
+    background-color: #000000;
+    border: 1px solid #ffffff;
+}
+
+/* Selected Workspace State */
+#workspaces button.active {
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #000000;
+    border: 1px solid #ffffff; 
+}
+
+#idle_inhibitor {
+    padding: 0 10px;
+    font-size: 10px;
+    transition: opacity 0.2s ease-in-out; /* Smooth fade when clicking */
+}
+
+/* When Caffeine Mode is ON: Solid white */
+#idle_inhibitor.activated {
+    color: #ffffff;
+    opacity: 1.0; 
+}
+
+/* When Caffeine Mode is OFF: Faded/Transparent */
+#idle_inhibitor.deactivated {
+    color: #ffffff;
+    opacity: 0.25; /* Adjust this between 0.0 (invisible) and 1.0 (solid) */
+}
+

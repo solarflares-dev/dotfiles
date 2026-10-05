@@ -1,0 +1,49 @@
+[global]
+    monitor = 0
+    follow = mouse
+    
+    width = 300
+    height = 100
+    origin = top-right
+    offset = 12x42                # Puts notifications cleanly below your Waybar
+    scale = 0
+    notification_limit = 3
+
+    progress_bar = false
+    separator_height = 1
+    separator_color = "#ffffff"
+    padding = 10
+    horizontal_padding = 12
+    text_icon_padding = 0
+    
+    corner_radius = 0             # Sharp edges matching your rice
+    frame_width = 1
+    frame_color = "#ffffff"       # White border line
+
+    font = JetBrainsMono Nerd Font 10          
+    line_height = 2
+    markup = full
+    format = "<b>%s</b>\n%b"       
+    alignment = left
+    vertical_alignment = center
+
+    show_indicators = false
+    enable_posix_regex = true
+    hide_layout_str = true
+    icon_position = off           # Pure text, no app icons
+
+[urgency_low]
+    background = "#000000"
+    foreground = "#ffffff"
+    timeout = 4
+
+[urgency_normal]
+    background = "#000000"
+    foreground = "#ffffff"
+    timeout = 6
+
+[urgency_critical]
+    background = "#000000"
+    foreground = "#ffffff"
+    frame_color = "#ffffff"       
+    timeout = 0

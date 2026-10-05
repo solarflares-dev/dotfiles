@@ -1,0 +1,6 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR fish_color_host:white
+SETUVAR fish_color_host_remote:white
+SETUVAR fish_color_user:white
+SETUVAR fish_greeting:

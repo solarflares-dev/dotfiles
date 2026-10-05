@@ -1,0 +1,28 @@
+[Default Applications]
+x-scheme-handler/http=librewolf.desktop
+x-scheme-handler/https=librewolf.desktop
+x-scheme-handler/chrome=librewolf.desktop
+text/html=librewolf.desktop
+application/x-extension-htm=librewolf.desktop
+application/x-extension-html=librewolf.desktop
+application/x-extension-shtml=librewolf.desktop
+application/xhtml+xml=librewolf.desktop
+application/x-extension-xhtml=librewolf.desktop
+application/x-extension-xht=librewolf.desktop
+x-scheme-handler/tg=userapp-AyuGram Desktop-8YEFW3.desktop
+x-scheme-handler/tonsite=userapp-AyuGram Desktop-GQXFW3.desktop
+x-scheme-handler/discord=vesktop.desktop
+
+[Added Associations]
+x-scheme-handler/http=librewolf.desktop;zen.desktop;
+x-scheme-handler/https=librewolf.desktop;zen.desktop;
+x-scheme-handler/chrome=librewolf.desktop;zen.desktop;
+text/html=zen.desktop;librewolf.desktop;
+application/x-extension-htm=zen.desktop;librewolf.desktop;
+application/x-extension-html=zen.desktop;librewolf.desktop;
+application/x-extension-shtml=zen.desktop;librewolf.desktop;
+application/xhtml+xml=zen.desktop;librewolf.desktop;
+application/x-extension-xhtml=zen.desktop;librewolf.desktop;
+application/x-extension-xht=zen.desktop;librewolf.desktop;
+x-scheme-handler/tg=userapp-AyuGram Desktop-8YEFW3.desktop;
+x-scheme-handler/tonsite=userapp-AyuGram Desktop-GQXFW3.desktop;
